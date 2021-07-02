@@ -49,7 +49,7 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': '04-02-2021',
-    'email': ['zalexander@nycourts.gov'],
+    'email': ['Your Airflow email'],
     'email_on_failure': True,
     'email_on_retry': True,
     'retries': 0
